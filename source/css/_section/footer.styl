@@ -15,13 +15,21 @@
 .powered-by,
 .theme-info { display: inline-block; }
 
+.copyright  {
+  display: inline-block;
+  &::after {
+    content: "|";
+    padding: 0 10px;
+  }
+}
+
 .powered-by {
   margin-right: 10px;
 
-  &::after {
-    content: "|";
-    padding-left: 10px;
-  }
+  // &::after {
+  //   content: "|";
+  //   padding-left: 10px;
+  // }
 }
 
 .cc-license {

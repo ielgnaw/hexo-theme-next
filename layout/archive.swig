@@ -9,6 +9,7 @@
 {% block content %}
 
   <div id="posts" class="posts-collapse">
+    <!-- 嗯..! 目前共计 5 篇日志。 继续努力。
     <span class="archive-move-on"></span>
 
     <span class="archive-page-counter">
@@ -22,7 +23,7 @@
       {% else %} {% set cheers = 'um' %}
       {% endif %}
       {{ __('cheers.' + cheers) }}! {{ _p("counter.archive_posts", site.posts.length) }} {{ __('keep_on') }}
-    </span>
+    </span>-->
 
     {% for post in page.posts %}
 
